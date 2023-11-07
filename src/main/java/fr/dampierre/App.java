@@ -6,10 +6,15 @@ public class App {
     
     public static void main(String[] args) {
         Scanner clavier = new Scanner(System.in);
+        System.out.println("Saisir le nombre de piece 1 cent : ");
         int nb1Cent = clavier.nextInt();
+        System.out.println("Saisir le nombre de piece 5 cents : ");
         int nb5Cent = clavier.nextInt();
+        System.out.println("Saisir le nombre de piece 10 cents : ");
         int nb10Cent = clavier.nextInt();
+        System.out.println("Saisir le nombre de piece 20 cents : ");
         int nb20Cent = clavier.nextInt();
+        System.out.println("Saisir le nombre de piece 50 cents : ");
         int nb50Cent = clavier.nextInt();
         clavier.close();
         int prixCafe = 1 ;
