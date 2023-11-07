@@ -19,7 +19,7 @@ public class App {
         clavier.close();
         int prixCafe = 1 ;
         double nbCentTotal = nb1Cent*0.01+nb5Cent*0.05+nb10Cent*0.10+nb20Cent*0.20+nb50Cent*0.50 ;
-        if (nbCentTotal >= prixCafe){
+        if (nbCentTotal < prixCafe){
             double reste = nbCentTotal - prixCafe;
             System.out.println("Vous avez pas asser pour payer votre café-crème, il vous manque "+ reste +" $");
         }
